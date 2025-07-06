@@ -165,23 +165,14 @@ header h1{
     width:100%;
     height:100%;
     transition:var(--transition);
-    /* position:absolute; */
-    /* left:100%; */
     background-size:cover;
     background-position:center; 
     filter:opacity(80%);
     filter: blur(3px);
     background-attachment: fixed;
-  
-    
-    /* z-index:6;  */
-    /* animation: sliding 25s linear infinite  */
-}
-#theme #slide .pic:nth-of-type(1){
     background-image: url(../images/event4_v3.jpg);
-    
-    
 }
+
 
 #theme .push{
     width:100%;
