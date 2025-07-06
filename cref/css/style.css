@@ -633,21 +633,7 @@ footer h6{
     .grid-xl-12{
         width: calc(100% / 12 * 12);
     }
-}
-
-
-@media screen and (max-width:400px){
-/* header特別設計 */
-    
-    header h1{
-        width: auto;
-        font-size: 1.5em;
-        
-    }
-}
-
-@media screen and (min-width: 1025px){
-    /* theme特別設計 */
+       /* theme特別設計 */
     #theme #slide .pic{
     width:100%;
     height:100%;
@@ -675,3 +661,15 @@ footer h6{
 
 }
 }
+
+
+@media screen and (max-width:400px){
+/* header特別設計 */
+    
+    header h1{
+        width: auto;
+        font-size: 1.5em;
+        
+    }
+}
+
